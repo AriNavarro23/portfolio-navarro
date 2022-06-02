@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVBAR */
+
+.brand span{
+    color: #088178;
+}
+/* NAVBAR */
+
+.navBG{
+        display: flex;
+        align-items: center;
+        padding: 20px 80px;
+        background: #E3E6F3;
+        box-shadow: 0px 45px rgba(0, 0, 0, 0.06);
+}
+
+.headerNav{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.headerNav li a{
+    text-decoration: none;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+.headerNav li a:hover {    
+    color: #088178;
+}
+
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FOOTER */
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    background-color: #E3E6F3;
+    flex-direction: column;
+    
+}
+
+.containerTextRrhh{
+    display: flex;
+    margin-top: 3rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    width: 85%;
+}
+
+.brandText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+}
+
+.brandText a{
+    color: black;
+}
+
+.brandText h2 span{
+    color: #088178;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+
+}
+
+.redes h3{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.redes a:hover{
+    transform: translateY(-10px);
+    transition: all 0.25s;
+    color: #088178;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.copyright h5{
+    font-size: 1rem;
+}
+
+
+
+/* MEDIA QUERY */
+
+/* MOBILE */
+@media screen and (max-width: 600px) { 
+    body{
+        background-color: red;
+    }
+
+} 
+
+
+/* TABLET */
+@media screen and (min-width: 600px) { 
+    body{
+        background-color: green;
+    }
+
+} 
+
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) { 
+
+    body{
+        background-color: blue;
+    }
+
+
+}

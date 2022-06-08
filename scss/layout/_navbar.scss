@@ -1,0 +1,64 @@
+/* ----------------------------------------------------- NAVBAR ---------------------------------------------------- */
+
+.navBG{
+    align-items: center;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    box-shadow: 0px 45px rgba(0, 0, 0, 0.06);
+}
+
+.headerNav{
+display: flex;
+width: 100%;
+align-items: center;
+
+}
+
+.headerNav li a{
+text-decoration: none;
+color: #1a1a1a;
+transition: 0.3s ease;
+}
+
+.brand a{
+color: black;
+}
+
+.brand span{
+color: #088178;
+}
+
+nav ul li {
+display: inline-block;
+} 
+
+.headerNav li a:hover {    
+color: #088178;
+}
+
+.ulNav{
+justify-content: space-around;
+margin-bottom: 0rem;
+}
+
+li{
+list-style-type: none;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.checkbtn{
+font-size: 30px;
+color: black;
+float: right;
+line-height: 30px;
+cursor: pointer;
+display: none;  
+}
+
+#check{
+display: none;
+}

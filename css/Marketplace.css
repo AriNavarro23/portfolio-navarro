@@ -348,6 +348,10 @@ a{
         font-size:20px;
     }
 
+    .searchContainer{
+        width: 50%;
+    }
+
     .checkbtn{
         display: block;
     }

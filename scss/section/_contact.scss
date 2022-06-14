@@ -29,10 +29,10 @@
   
       &__text,
       a {
-        font-size: 2.4rem;
+        font-size: 1rem; //text and button
   
         @include respond(phone) {
-          font-size: 2rem;
+          font-size: 1rem;
         }
       }
     }

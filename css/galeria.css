@@ -12,17 +12,32 @@ body{
 
 /* NAVBAR */
 
-.brand span{
+.navbar{
+    background-color: #333333;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-brand:hover{
     color: #088178;
+}
+
+.nav-link{
+    font-size: 0.8rem;
+    color: #fff;
 }
 /* NAVBAR */
 
-.navBG{
-        display: flex;
-        align-items: center;
-        padding: 20px 80px;
-        background: #E3E6F3;
-        box-shadow: 0px 45px rgba(0, 0, 0, 0.06);
+.nav-item{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item a:hover {    
+    color: #088178;
 }
 
 .headerNav{
@@ -70,7 +85,7 @@ a{
 .footerContainer{
     display: flex;
     align-items: center;
-    background-color: #E3E6F3;
+    background-color: #333333;
     flex-direction: column;
     
 }
@@ -97,6 +112,10 @@ a{
 
 .brandText h2 span{
     color: #088178;
+}
+
+.p-footer{
+    color:#fff;
 }
 
 .redes{
@@ -127,7 +146,8 @@ a{
 }
 
 .copyright h5{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
 }
 
 
@@ -135,17 +155,43 @@ a{
 
 /* MOBILE */
 @media screen and (max-width: 600px) { 
-    body{
-        background-color: red;
+
+    .navbar-brand{
+        margin-left: 20px;
     }
 
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .dropdown-menu{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .redes{
+        flex-direction: column;
+    }
 } 
 
 
 /* TABLET */
 @media screen and (min-width: 600px) { 
-    body{
-        background-color: green;
+
+    .navbar-nav{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+
+    .redes{
+        flex-direction: column;
     }
 
 } 
@@ -154,9 +200,37 @@ a{
 /* DESKTOP */
 @media screen and (min-width: 1024px) { 
 
-    body{
-        background-color: blue;
+    /* NAVBAR */
+    .navbar-brand{
+        margin-left: 20px;
+        justify-content: flex-end;
+        justify-content: flex-end;
     }
 
+    .nav-item{
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item a:hover {    
+        color: #088178;
+    }
+    
+
+    .navbar-nav{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+
+    .dropdown-menu{
+        margin-top: 3rem;
+    }
+    /* END NAVBAR */
+
+    .redes{
+        flex-direction: row;
+    }
 
 }

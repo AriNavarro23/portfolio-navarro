@@ -67,56 +67,45 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
             background: transparent;
             font-style: normal; } }
 
-/* ----------------------------------------------------- NAVBAR ---------------------------------------------------- */
-.navBG {
-  align-items: center;
-  padding: 20px 80px;
-  background: #E3E6F3;
-  box-shadow: 0px 45px rgba(0, 0, 0, 0.06); }
+.navbar-nav {
+  width: 100%; }
 
-.headerNav {
+.nav-item {
   display: flex;
+  justify-content: center; }
+
+/* NAVBAR */
+.navbar-brand {
+  margin-left: 20px;
+  justify-content: flex-end;
+  justify-content: flex-end; }
+
+.nav-item {
+  margin: 0 20px;
+  display: flex;
+  justify-content: center; }
+
+.nav-item a:hover {
+  color: #088178; }
+
+.navbar-nav {
   width: 100%;
-  align-items: center; }
+  justify-content: flex-end; }
 
-.headerNav li a {
-  text-decoration: none;
-  color: #1a1a1a;
-  transition: 0.3s ease; }
+/* END NAVBAR */
+.navbar {
+  background-color: #333333; }
 
-.brand a {
-  color: black; }
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem; }
 
-.brand span {
+.navbar-brand:hover {
   color: #088178; }
 
-nav ul li {
-  display: inline-block; }
-
-.headerNav li a:hover {
-  color: #088178; }
-
-.ulNav {
-  justify-content: space-around;
-  margin-bottom: 0rem; }
-
-li {
-  list-style-type: none; }
-
-a {
-  text-decoration: none;
-  color: black; }
-
-.checkbtn {
-  font-size: 30px;
-  color: black;
-  float: right;
-  line-height: 30px;
-  cursor: pointer;
-  display: none; }
-
-#check {
-  display: none; }
+.nav-link {
+  font-size: 0.8rem;
+  color: #fff; }
 
 /*
 0 - 600px:          Phone
@@ -130,10 +119,10 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 .mb-8 {
   margin-bottom: 8rem !important; }
 
-html {
-  font-size: 62.5%; }
-  html.sr .load-hidden {
-    visibility: hidden; }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -145,7 +134,7 @@ h1 {
 p,
 a {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem; }
+  font-size: 1rem; }
 
 a,
 a:link,
@@ -160,7 +149,7 @@ a:hover {
 .section-title {
   margin: 0px;
   margin-bottom: 4.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase; }
   @media (max-width: 37.5em) {
@@ -190,7 +179,7 @@ a:hover {
 .cta-btn {
   display: inline-block;
   position: relative;
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 1rem;
   font-weight: bold;
   line-height: 1;
   z-index: 1;
@@ -297,14 +286,14 @@ a:hover {
     font-size: 3rem;
     width: 5rem;
     height: 5rem;
-    margin: 1.6rem 1.6rem;
+    margin: 1rem 1rem;
     transition: all 0.2s ease-in; }
     .social-links a:hover {
       transform: translateY(-2px); }
 
 .back-to-top i {
   color: #fff;
-  margin: 1rem 0 1.6rem;
+  margin: 1rem 0 1rem;
   transition: all 0.2s ease-in; }
   .back-to-top i:hover {
     transform: translateY(-2px); }
@@ -325,6 +314,8 @@ a:hover {
       height: 100%;
       -webkit-clip-path: none;
       clip-path: none; } }
+  #about .container {
+    margin-top: 50px; }
   @media (max-width: 37.5em) {
     #about .about-wrapper {
       padding-bottom: 5rem; } }
@@ -392,11 +383,11 @@ a:hover {
       margin-bottom: 2.5rem; }
     #contact .contact-wrapper__text,
     #contact .contact-wrapper a {
-      font-size: 2.4rem; }
+      font-size: 1rem; }
       @media (max-width: 37.5em) {
         #contact .contact-wrapper__text,
         #contact .contact-wrapper a {
-          font-size: 2rem; } }
+          font-size: 1rem; } }
 
 #hero {
   min-height: 100vh;
@@ -419,9 +410,9 @@ a:hover {
     background-size: cover; */ }
   @media (max-width: 37.5em) {
     #hero {
-      padding: 0rem 1.6rem; } }
+      padding: 0rem 1rem; } }
   #hero .hero-title {
-    font-size: 5.6rem;
+    font-size: 2.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left; }
@@ -434,7 +425,7 @@ a:hover {
         text-align: center; } }
     @media (max-width: 37.5em) {
       #hero .hero-title {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         line-height: 1.5; } }
     @media (max-width: 20em) {
       #hero .hero-title {
@@ -445,10 +436,10 @@ a:hover {
       #hero .hero-cta {
         justify-content: center; } }
     #hero .hero-cta a {
-      font-size: 2.4rem; }
+      font-size: 1rem; }
       @media (max-width: 37.5em) {
         #hero .hero-cta a {
-          font-size: 2rem; } }
+          font-size: 1rem; } }
 
 #projects {
   background-color: #fff;
@@ -480,7 +471,7 @@ a:hover {
       #projects .project-wrapper__text-title {
         font-weight: bold;
         margin-bottom: 1.8rem;
-        font-size: 2.5rem; }
+        font-size: 1.5rem; }
         @media (max-width: 37.5em) {
           #projects .project-wrapper__text-title {
             font-size: 2rem; } }

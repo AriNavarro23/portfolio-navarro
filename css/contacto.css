@@ -128,8 +128,17 @@ a{
 
 /* MOBILE */
 @media screen and (max-width: 600px) { 
-    body{
-        background-color: red;
+
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+
+    .redes{
+        flex-direction: column;
     }
 
 } 
@@ -137,18 +146,46 @@ a{
 
 /* TABLET */
 @media screen and (min-width: 600px) { 
-    body{
-        background-color: green;
+
+    .navbar-nav{
+        width: 100%;
+        justify-content: flex-end;
     }
 
+    .navbar-brand{
+        margin-left: 20px;
+    }
+
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+
+    .redes{
+        flex-direction: column;
+    }
 } 
 
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) { 
 
-    body{
-        background-color: blue;
+    .navbar-brand{
+        margin-left: 20px;
+        justify-content: flex-end;
+        justify-content: flex-end;
+    }
+
+    .nav-item{
+        margin: 0 20px;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .redes{
+        flex-direction: row;
     }
 
 

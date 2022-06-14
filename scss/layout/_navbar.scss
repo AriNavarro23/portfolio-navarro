@@ -1,64 +1,50 @@
-/* ----------------------------------------------------- NAVBAR ---------------------------------------------------- */
-
-.navBG{
-    align-items: center;
-    padding: 20px 80px;
-    background: #E3E6F3;
-    box-shadow: 0px 45px rgba(0, 0, 0, 0.06);
+.navbar-nav{
+    width: 100%;
 }
 
-.headerNav{
-display: flex;
-width: 100%;
-align-items: center;
-
+.nav-item{
+    display: flex;
+    justify-content: center;
 }
 
-.headerNav li a{
-text-decoration: none;
-color: #1a1a1a;
-transition: 0.3s ease;
-}
+    /* NAVBAR */
+    .navbar-brand{
+        margin-left: 20px;
+        justify-content: flex-end;
+        justify-content: flex-end;
+    }
 
-.brand a{
-color: black;
-}
+    .nav-item{
+        margin: 0 20px;
+        display: flex;
+        justify-content: center;
+    }
 
-.brand span{
-color: #088178;
-}
+    .nav-item a:hover {    
+        color: #088178;
+    }
+    
 
-nav ul li {
-display: inline-block;
-} 
+    .navbar-nav{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    /* END NAVBAR */
 
-.headerNav li a:hover {    
-color: #088178;
-}
-
-.ulNav{
-justify-content: space-around;
-margin-bottom: 0rem;
-}
-
-li{
-list-style-type: none;
-}
-
-a{
-text-decoration: none;
-color: black;
-}
-
-.checkbtn{
-font-size: 30px;
-color: black;
-float: right;
-line-height: 30px;
-cursor: pointer;
-display: none;  
-}
-
-#check{
-display: none;
-}
+    .navbar{
+        background-color: #333333;
+    }
+    
+    .navbar-brand{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand:hover{
+        color: #088178;
+    }
+    
+    .nav-link{
+        font-size: 0.8rem;
+        color: #fff;
+    }

@@ -426,9 +426,7 @@ body{
 @media screen and (min-width: 1024px) { 
 
         /* NAVBAR */
-        .navbar{
-            background-color: #333333;
-        }
+
         .navbar-brand{
             margin-left: 20px;
             justify-content: flex-end;

@@ -12,48 +12,43 @@ body{
 
 /* NAVBAR */
 
-.brand span{
+.navbar{
+    background-color: #333333;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    justify-content: flex-end;
+}
+
+.navbar-brand:hover{
     color: #088178;
 }
-/* NAVBAR */
 
-.navBG{
-        display: flex;
-        align-items: center;
-        padding: 20px 80px;
-        background: #E3E6F3;
-        box-shadow: 0px 45px rgba(0, 0, 0, 0.06);
+.nav-link{
+    font-size: 0.8rem;
+    color: #fff;
 }
 
-.headerNav{
+.nav-item{
+    margin: 0 20px;
     display: flex;
+    justify-content: center;
+}
+
+.nav-item a:hover {    
+    color: #088178;
+}
+
+.navbar-nav{
     width: 100%;
     justify-content: flex-end;
 }
 
-.headerNav li a{
-    text-decoration: none;
-    color: #1a1a1a;
-    transition: 0.3s ease;
-}
-
-.headerNav li a:hover {    
-    color: #088178;
-}
-
-ul{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-}
-
-li{
-    list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-    color: black;
+.dropdown-menu{
+    margin-top: 3rem;
 }
 
 
@@ -168,12 +163,6 @@ a{
 
 /* DESKTOP */
 @media screen and (min-width: 1024px) { 
-
-    .navbar-brand{
-        margin-left: 20px;
-        justify-content: flex-end;
-        justify-content: flex-end;
-    }
 
     .nav-item{
         margin: 0 20px;

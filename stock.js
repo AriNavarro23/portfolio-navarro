@@ -1,0 +1,11 @@
+let stockProductos = [
+    {id:1, nombre:"Bored Ape Yacht Club", precio: 1200, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/Rn3ZpGAsWIwODp2PdC21GgROWTYlxvK7xys1amJ7Z-HIEg3l4cN0ReAg_u572Xfp05GskW913KAu5tQyYThlbJVrc5ZS297Dfykosw=w600', cantidad: 1},
+    {id:2, nombre:"Bored Ape Yacht Club", precio: 1100, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/8pSQDqVgCuRx0eZ666DwHlQPqppiRK95_45V-L_dhZbyREo0IIX0K6vNCsnqahKBrzG7Vjt6CfsojZx86PAorcthLeki4vNuBxmTQg=w600', cantidad: 1},
+    {id:3, nombre:"Bored Ape Yacht Club", precio: 1200, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/oGX9KC5HSLaNBtg3pNyJvlMca_YwhR3xvSllayk86pghLCOJkvbQ8DzNuiF2ZY-HU_ZzYayTZngFnp9kJdi8J140dtErziZcfu2jUw=w600', cantidad: 1},
+    {id:4, nombre:"Bored Ape Yacht Club", precio: 1400, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/-PwKyfcTNhTCiTWEff1prU-qPHunTYZfCsuJsZ_5Z_AFru6PT_cxPSYvUAuenHYQ46PU2Xq1umJqb0n1qgqXYO9Smcw_zcN2-jKL=w600', cantidad: 1},
+    {id:5, nombre:"Bored Ape Yacht Club", precio: 1200, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/EE4wtZaiUGD01e9O1S34q403G9zlJ4ByPspsTFn5G85yx0iwWbv3fGRbfqMs2yorB3OjFqKvTL6rTtP3mkrOSVRixYvhyAlV3ikBRQ=w600', cantidad: 1},
+    {id:6, nombre:"Bored Ape Yacht Club", precio: 1500, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/2PplRFyL3vnAF0EcuSnNBQlo-bkfGo8B-DZ3_wnVDd22Pbdrav_fEWuc7M9CtyDEQyqG-wN5sExBYbsbbYRJzTmkynA47UF6FRhFIg=w600', cantidad: 1},
+    {id:7, nombre:"Bored Ape Yacht Club", precio: 500, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/cppsrlt-PdOelvemxUf8CRS-f1aautZcmcoIbBJOn9lLP4aITWLMCgh5u8N7N7RYn9B6sgSddBmoHXuJhKBk1m_1dyf0Krr_UM7r=w600', cantidad: 1},
+    {id:8, nombre:"Bored Ape Yacht Club", precio: 500, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/TfC0RiZsXB6NfyrG10vLjLPOfo44zv3wuMh_adbDGwtTiB-jK2L5G8KRXRrGyKsOmjVpAl5Qd6AVFq17hnoVMi0pnsu9rmYK1GfpSQ=w600', cantidad: 1},
+    {id:9, nombre:"Bored Ape Yacht Club", precio: 500, nft: "Bored Ape Yacht Club", img: 'https://lh3.googleusercontent.com/P52bTUvd0xHLQC9JuHV-2wr4x1tedmOgPfNwajbp4FhXJmeG-GElCkZnXhAMmH0ma9ulqbCOfFANFWvInrxzwkRywBmeqY17Jpak=w600', cantidad: 1}
+]

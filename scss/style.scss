@@ -1,22 +1,22 @@
 @import "./section/index";
 @import "./layout/navbar";
+@import "./layout/footer";
 
 @import "./vendors/bootstrap";
 
+@import "./abstracts/helpers";
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
-@import "./abstracts/helpers";
 
 @import "./base/base";
 @import "./base/typography";
 
 @import "./components/buttons";
 
-@import "./layout/footer";
-@import "./layout/sections";
-
-@import "./section/marketplace";
 @import "./section/about";
 @import "./section/contact";
 @import "./section/hero";
 @import "./section/projects";
+@import "./section/marketplace";
+@import "./section/gallery";
+@import "./section/contacto";

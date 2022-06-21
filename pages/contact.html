@@ -19,7 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     
     <!-- CSS only -->
-    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/main.css">
     
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/ae918222e0.js" crossorigin="anonymous"></script>
@@ -31,6 +31,7 @@
 <body>
     <!--encabezado-->
         <header>
+            <div id="top"></div>
             <!-- ============================================ NAVBAR ================================================== -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="../index.html">AN</a>
@@ -68,11 +69,23 @@
             </nav>
             <!-- ============================================ END NAVBAR ============================================= -->
         </header>
-    <!--inicio de contenido>-->
-    <main style="height: 500px;">
+    <!-- ==================================================== MAIN ==================================================-->
+    <main>
+        <section>
+            <div class="contact-banner">
+                <img src="../assets/banner-contact.png" alt="">
+            </div>
         <section>
             <article>
-                <form action="input"></form>
+                <div class="form-style-6">
+                    <h1>Contact Us</h1>
+                    <form>
+                    <input type="text" name="field1" placeholder="Your Name" />
+                    <input type="email" name="field2" placeholder="Email Address" />
+                    <textarea name="field3" placeholder="Type your Message"></textarea>
+                    <input type="submit" value="Send" />
+                    </form>
+                    </div>
             </article>
         </section>
     </main>

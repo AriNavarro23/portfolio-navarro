@@ -1,12 +1,16 @@
 
-    /* NAVBAR */
+/* ========== NAVBAR ========== */
 
     .navbar{
         background-color: #333333;
-    }
+        padding: 0.5rem 1rem;
+
+        a:hover{    
+            color: #088178;
+        }
+    }   
 
     .navbar-brand{
-        // margin-left: 20px;
         color: #fff;
         font-size: 1.5rem;
         justify-content: flex-end;
@@ -16,13 +20,15 @@
         margin: 0 20px;
         display: flex;
         justify-content: center;
-    }
 
-    .nav-item a:hover {    
-        color: #088178;
+        a:hover {    
+            color: #088178;
+        }
+    }
+    #navbarDropdown{
+        color: #fff;
     }
     
-
     .navbar-nav{
         width: 100%;
         justify-content: flex-end;
@@ -31,12 +37,20 @@
     .nav-link{
         font-size: 0.8rem;
         color: #fff;
+
+        &:hover{
+            color: #088178;
+
+        }
     }
 
     .dropdown-menu{
-        margin-top: 3rem;
         top: 0% !important;
+
+        @include respond(desktop) {
+            margin-top: 3rem;
+        }
     }
 
-    /* END NAVBAR */
+/* ========== END NAVBAR ========== */
 

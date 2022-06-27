@@ -1,5 +1,7 @@
 /* ========== FOOTER ========== */
 
+
+
 .back-to-top i {
   color: $white-color;
   margin: 3rem 0 0;
@@ -16,7 +18,7 @@
   align-items: center;
   background-color: #333333;
   flex-direction: column;
-  
+  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -37,6 +39,10 @@
   margin: 3rem;
 
   a {
+    color: black;
+  }
+
+  h2{
     color: black;
   }
 

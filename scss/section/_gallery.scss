@@ -1,3 +1,76 @@
 // @import "../layout/footer";
 
+// ========== EXPLORE ===========
+
+.explore-links{
+    display: flex;
+}
+.explore-div-container{
+    display: flex;
+}
+
+span{
+    color: black;
+}
+
+// ========== END EXPLORE ==========
+
+
+
+
+
+// ========== BANNER ==========
+
+.banner-container{
+    background-image: url("../../assets/banner-gallery3.jpg");
+    height: 250px;
+    max-width: 1200px;
+}
+
+.banner-link{
+    display: flex;
+}
+// ========== END BANNER ==========
+
+
+
+
+
+// ========== CAROUSEL ==========
+
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.uk-slider-container-offset{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.uk-slidenav svg{
+    color: black;
+}
+
+.uk-slider-items li{
+    width: 25%;
+}
+
+.uk-card-media-top img{
+    width: 100%;
+    height: auto;
+}
+
+// ========== END CAROUSEL ==========
+
+// ========== VIDEO ==========
+
+.video-section{
+    margin: 5rem;
+}
+.video-container{
+    padding: 5rem;
+    background-image: linear-gradient(135deg, #088178 0%, #00cdac 100%);
+}
 

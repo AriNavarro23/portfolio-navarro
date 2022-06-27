@@ -5,7 +5,7 @@ font-weight: 700;
 
 p,
 a {
-font-family: "Montserrat", sans-serif;
+font-family: "Montserrat", sans-serif !important;
 font-size: $default-font-size;
 }
 
@@ -14,7 +14,7 @@ a:link,
 a:hover,
 a:visited,
 a:active {
-text-decoration: none;
+text-decoration: none !important;
 }
 
 a:hover {

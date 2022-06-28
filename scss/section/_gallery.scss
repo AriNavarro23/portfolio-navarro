@@ -1,12 +1,30 @@
 // @import "../layout/footer";
 
 // ========== EXPLORE ===========
+.explore-container{
+    margin-top: 5rem;
+    
+}
 
 .explore-links{
     display: flex;
+    justify-content: space-around;
 }
+
 .explore-div-container{
     display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+}
+
+.explore-text{
+    padding-top: 2rem;
+    background-color: #333333;
+
+    span{
+        color: white;
+    }
 }
 
 span{
@@ -22,13 +40,24 @@ span{
 // ========== BANNER ==========
 
 .banner-container{
-    background-image: url("../../assets/banner-gallery3.jpg");
+    background-image: url("../../assets/ocean-green-water.jpg");
     height: 250px;
     max-width: 1200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
 }
+
+
 
 .banner-link{
     display: flex;
+}
+
+.banner-text h1{
+    color: white;
 }
 // ========== END BANNER ==========
 

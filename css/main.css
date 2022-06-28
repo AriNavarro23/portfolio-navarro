@@ -744,7 +744,7 @@ body {
 
 .producto {
   width: 300px;
-  height: 400 px;
+  height: 400px;
   border-radius: 15px;
   box-shadow: 0 5px 5px #088178;
   overflow: hidden;
@@ -828,22 +828,43 @@ body {
   .card-image img {
     width: 100%; } }
 
+.explore-container {
+  margin-top: 5rem; }
+
 .explore-links {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
 
 .explore-div-container {
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px; }
+
+.explore-text {
+  padding-top: 2rem;
+  background-color: #333333; }
+  .explore-text span {
+    color: white; }
 
 span {
   color: black; }
 
 .banner-container {
-  background-image: url("../../assets/banner-gallery3.jpg");
+  background-image: url("../../assets/ocean-green-water.jpg");
   height: 250px;
-  max-width: 1200px; }
+  max-width: 1200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 0; }
 
 .banner-link {
   display: flex; }
+
+.banner-text h1 {
+  color: white; }
 
 .carousel-container {
   display: flex;

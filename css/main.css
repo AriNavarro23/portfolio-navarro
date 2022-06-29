@@ -842,7 +842,7 @@ body {
   height: 400px; }
 
 .explore-text {
-  padding-top: 2rem;
+  padding: 2rem;
   background-color: #333333; }
   .explore-text span {
     color: white; }
@@ -853,7 +853,6 @@ span {
 .banner-container {
   background-image: url("../../assets/ocean-green-water.jpg");
   height: 250px;
-  max-width: 1200px;
   background-size: cover;
   display: flex;
   justify-content: center;

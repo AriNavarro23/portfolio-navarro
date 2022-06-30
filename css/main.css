@@ -105,6 +105,9 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
   @media (min-width: 75em) {
     .dropdown-menu {
       margin-top: 3rem; } }
+  @media (max-width: 75em) {
+    .dropdown-menu {
+      margin-top: 3rem; } }
 
 /* ========== END NAVBAR ========== */
 /* ========== FOOTER ========== */
@@ -834,12 +837,22 @@ body {
 .explore-links {
   display: flex;
   justify-content: space-around; }
+  @media (max-width: 37.5em) {
+    .explore-links {
+      flex-direction: column;
+      align-items: center; } }
+  @media (max-width: 37.5em) {
+    .explore-links a {
+      margin: 2rem 0; } }
 
 .explore-div-container {
   display: flex;
   flex-direction: column;
   width: 300px;
   height: 400px; }
+  @media (max-width: 56.25em) {
+    .explore-div-container {
+      width: 15rem; } }
 
 .explore-text {
   padding: 2rem;
@@ -879,6 +892,12 @@ span {
 
 .uk-slider-items li {
   width: 25%; }
+  @media (max-width: 56.25em) {
+    .uk-slider-items li {
+      width: 48%; } }
+  @media (max-width: 37.5em) {
+    .uk-slider-items li {
+      width: 100%; } }
 
 .uk-card-media-top img {
   width: 100%;

@@ -373,9 +373,6 @@ body{
 
 .imgEth{
     
-    @include respond(phone) {
-
-    }
     @include respond(desktop) {
         height: 1.3rem;
     }

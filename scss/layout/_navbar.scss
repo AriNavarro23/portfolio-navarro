@@ -50,6 +50,9 @@
         @include respond(desktop) {
             margin-top: 3rem;
         }
+        @include respond(tab-land){
+            margin-top: 3rem;
+        }
     }
 
 /* ========== END NAVBAR ========== */

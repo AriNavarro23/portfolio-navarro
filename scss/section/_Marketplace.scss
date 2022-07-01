@@ -118,7 +118,6 @@ body{
 
 .btn-floating{
     text-decoration: none;
-    // cursor: pointer;
 }
 
 
@@ -275,18 +274,6 @@ body{
             grid-area: aside;
         }
     }
-
-    // @include respond(tab-land) {
-    //     display: grid;
-    //     height: 100 vh;
-    //     grid-template-columns: repeat(2, 1fr);
-    //     grid-template-rows: repeat(5, 1fr);
-    //     grid-template-areas: "aside aside"
-    //                         "producto producto"
-    //                         "producto producto"
-    //                         "producto producto"
-    //                         "producto producto";
-    // }
 
     @include respond(desktop) {
         display: grid;

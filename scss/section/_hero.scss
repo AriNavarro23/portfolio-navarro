@@ -16,15 +16,7 @@
     bottom: 0;
     right: 0;
     z-index: -1;
-  
-    // Set position sticky so the jumbotron stays fixed while you scroll.
-    // position: sticky;
-  
-    // If you want to set a background image on the hero section, uncomment these with your custom image
-  
-    /* background: url("/src/assets/[your-image].png");
-    background-position: center;
-    background-size: cover; */
+
   
     @include respond(phone) {
       padding: 0rem $default-font-size;

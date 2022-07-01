@@ -229,6 +229,29 @@ body{
 .aside{
     grid-area: aside;
     max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .list-filter{
+        
+        li{
+            list-style-type: none;
+
+            a{
+                color: black;
+            }
+        }
+    }
+
+    .price-filter{
+        li{
+            list-style-type: none;
+            a{
+                color: black;
+            }
+        }
+    }
 }
 
 // -------- END ASIDE ----------
@@ -253,7 +276,7 @@ body{
         display: grid;
         height: 100 vh;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-template-areas:
                             "aside producto producto"
                             "aside producto producto"
@@ -266,8 +289,14 @@ body{
     @include respond(phone) {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(8, 1fr);
         grid-template-areas: "aside"
+                            "producto"
+                            "producto"
+                            "producto"
+                            "producto"
+                            "producto"
+                            "producto"
                             "producto"
                             "producto";
         .aside{

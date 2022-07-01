@@ -9,6 +9,8 @@
     color: black;
 }
 
+// END TITLE
+
 
 
 
@@ -41,3 +43,42 @@
         height: 100%;
     }
 }
+//  END CARDS
+
+
+
+// VIDEO
+
+.video-section{
+
+    @include respond(phone){
+        margin: 2rem;
+    }
+}
+
+.video-container{
+    
+    @include respond(tab-land){
+        padding: 3rem;
+    }
+
+    @include respond(phone){
+        padding: 2rem;
+    }
+
+    iframe{
+        width: 100%;
+
+        @include respond(tab-land){
+            height: 400px;
+        }
+        @include respond(phone){
+            height: 250px;
+        }
+        @include respond(desktop){
+            height: 550px;
+        }
+    }
+}
+
+// END VIDEO

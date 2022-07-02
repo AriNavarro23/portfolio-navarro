@@ -24,15 +24,17 @@
                         "product product product";
 }
 .product{
-    padding: 5rem 2rem;
+    padding: 3rem 1rem;
 }
 
 .card{
-    width: 25.5rem;
+    width: 100%;
+    height: 25rem;
 }
 
 .card-link{
     background-color: #333;
+    height: 100%;
 }
 
 .card-img{
@@ -41,6 +43,17 @@
     img{
         width: 100%;
         height: 100%;
+    }
+}
+
+.card-title{
+
+    .material-symbols-outlined{
+        color: rgb(32, 129, 226);
+    }
+
+    .by-container{
+        color:rgb(138, 147, 155)
     }
 }
 //  END CARDS

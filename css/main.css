@@ -597,17 +597,32 @@ body {
       margin-top: 3rem; } }
 
 .buttonFluid {
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   .buttonFluid button {
     margin: 2rem; }
 
+.containerButton {
+  display: flex; }
+
+.containerLink {
+  display: flex; }
+  .containerLink span {
+    color: var(--bs-link-color); }
+
 #button1 {
   background-color: #088178;
-  padding: 0.5rem; }
+  padding: 1.5rem;
+  width: 10rem;
+  height: 4rem;
+  align-items: center; }
 
 #button2 {
   background-color: gray;
-  padding: 0.5rem; }
+  padding: 1.5rem;
+  width: 10rem;
+  height: 4rem;
+  align-items: center; }
 
 .btn-container {
   display: flex;

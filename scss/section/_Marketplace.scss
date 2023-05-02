@@ -79,6 +79,15 @@ body{
     }
 }
 
+.link-textFluid{
+    display:flex;
+    justify-content: center;
+
+    :hover{
+        color: #088178;
+    }
+}
+
 .containerButton{
     display:flex;
 }
@@ -254,6 +263,8 @@ body{
 
     .list-filter{
         
+        padding: 0px !important;
+
         li{
             list-style-type: none;
 
@@ -264,6 +275,9 @@ body{
     }
 
     .price-filter{
+
+        padding: 0px !important;
+
         li{
             list-style-type: none;
             a{

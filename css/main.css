@@ -602,6 +602,12 @@ body {
   .buttonFluid button {
     margin: 2rem; }
 
+.link-textFluid {
+  display: flex;
+  justify-content: center; }
+  .link-textFluid :hover {
+    color: #088178; }
+
 .containerButton {
   display: flex; }
 
@@ -725,14 +731,18 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .aside .list-filter li {
-    list-style-type: none; }
-    .aside .list-filter li a {
-      color: black; }
-  .aside .price-filter li {
-    list-style-type: none; }
-    .aside .price-filter li a {
-      color: black; }
+  .aside .list-filter {
+    padding: 0px !important; }
+    .aside .list-filter li {
+      list-style-type: none; }
+      .aside .list-filter li a {
+        color: black; }
+  .aside .price-filter {
+    padding: 0px !important; }
+    .aside .price-filter li {
+      list-style-type: none; }
+      .aside .price-filter li a {
+        color: black; }
 
 .containerMain {
   display: flex;
